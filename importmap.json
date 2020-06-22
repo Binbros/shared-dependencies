@@ -1,11 +1,35 @@
-{
+{ "if": {
+    "isLocal": "false"
+},
+"then": {
     "imports":{
     "cdn/single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.3.4/lib/system/single-spa.min.js",
     "cdn/react": "https://cdn.jsdelivr.net/npm/react@16.13.0/umd/react.production.min.js",
     "cdn/react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.0/umd/react-dom.production.min.js",
     "cdn/chakra-ui": "https://cdn.jsdelivr.net/npm/chakra-ui@0.3.9/dist/index.min.js",
     "cdn/styled-components":"https://cdnjs.cloudflare.com/ajax/libs/styled-components/5.1.0/styled-components-macro.cjs.js",
-    "cdn/emotion": "https://cdn.jsdelivr.net/npm/emotion@10.0.27/dist/emotion.cjs.min.js"
-
+    "cdn/emotion": "https://cdn.jsdelivr.net/npm/emotion@10.0.27/dist/emotion.cjs.min.js",
+    "cdn/formik": "https://unpkg.com/formik/dist/formik.umd.production.js",
+    "@binbro/root-config": "//root-config/binbro-root-config.js",
+    "@binbro/styleguide":"//styleguide/binbro-styleguide.js",
+    "@binbro/navbar":"//navbar/binbro-navbar.js",
+    "@binbro/home": "//home/binbro-home.js",
+    "@binbro/signup": "//signup/binbro-signup.js",
+    "@binbro/login": "//login/binbro-login.js",
+    "@binbro/reset": "//reset/binbro-reset.js",
+    "@binbro/resetPassword": "//forgot/binbro-resetPassword.js"
+    }
+} ,
+"else": {
+    "imports": {
+        "@binbro/root-config": "//localhost:8500/binbro-root-config.js",
+        "@binbro/styleguide":"//localhost:8501/binbro-styleguide.js",
+        "@binbro/navbar":"//localhost:8507/binbro-navbar.js",
+        "@binbro/home": "//localhost:8502/binbro-home.js",
+        "@binbro/signup": "//localhost:8503/binbro-signup.js",
+        "@binbro/login": "//localhost:8504/binbro-login.js",
+        "@binbro/reset": "//localhost:8505/binbro-reset.js",
+        "@binbro/resetPassword": "//localhost:8506/binbro-resetPassword.js"
+      }
     }
 }
