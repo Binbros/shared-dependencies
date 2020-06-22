@@ -1,7 +1,4 @@
-{ "if": {
-    "isLocal": "false"
-},
-"then": {
+ {
     "imports":{
     "cdn/single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.3.4/lib/system/single-spa.min.js",
     "cdn/react": "https://cdn.jsdelivr.net/npm/react@16.13.0/umd/react.production.min.js",
@@ -19,17 +16,4 @@
     "@binbro/reset": "//reset/binbro-reset.js",
     "@binbro/resetPassword": "//forgot/binbro-resetPassword.js"
     }
-} ,
-"else": {
-    "imports": {
-        "@binbro/root-config": "//localhost:8500/binbro-root-config.js",
-        "@binbro/styleguide":"//localhost:8501/binbro-styleguide.js",
-        "@binbro/navbar":"//localhost:8507/binbro-navbar.js",
-        "@binbro/home": "//localhost:8502/binbro-home.js",
-        "@binbro/signup": "//localhost:8503/binbro-signup.js",
-        "@binbro/login": "//localhost:8504/binbro-login.js",
-        "@binbro/reset": "//localhost:8505/binbro-reset.js",
-        "@binbro/resetPassword": "//localhost:8506/binbro-resetPassword.js"
-      }
-    }
-}
+} 
