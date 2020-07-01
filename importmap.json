@@ -7,13 +7,13 @@
     "styled-components":"https://cdnjs.cloudflare.com/ajax/libs/styled-components/5.1.0/styled-components-macro.cjs.js",
     "emotion": "https://cdn.jsdelivr.net/npm/emotion@10.0.27/dist/emotion.cjs.min.js",
     "formik": "https://unpkg.com/formik/dist/formik.umd.production.js",
-    "@binbro/root-config": "//root-config/binbro-root-config.js",
-    "@binbro/styleguide":"//styleguide/binbro-styleguide.js",
-    "@binbro/navbar":"//navbar/binbro-navbar.js",
-    "@binbro/home": "//home/binbro-home.js",
-    "@binbro/signup": "//signup/binbro-signup.js",
-    "@binbro/login": "//login/binbro-login.js",
-    "@binbro/reset": "//reset/binbro-reset.js",
-    "@binbro/resetPassword": "//forgot/binbro-resetPassword.js"
+    "@binbro/root-config": "//binbro.com/root-config/binbro-root-config.js",
+    "@binbro/styleguide":"//binbro.com/styleguide/binbro-styleguide.js",
+    "@binbro/navbar":"//binbro.com/navbar/binbro-navbar.js",
+    "@binbro/home": "//binbro.com/home/binbro-home.js",
+    "@binbro/signup": "//binbro.com/signup/binbro-signup.js",
+    "@binbro/login": "//binbro.com/login/binbro-login.js",
+    "@binbro/reset": "//binbro.com/reset/binbro-reset.js",
+    "@binbro/resetPassword": "//binbro.com/forgot/binbro-resetPassword.js"
     }
 } 
